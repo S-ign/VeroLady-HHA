@@ -1,8 +1,8 @@
+import Image from "next/image"
 import Head from "next/head";
 import HeaderNav from "~/components/HeaderNav";
-import SacramentoText from "~/components/SacramentoText";
 import Footer from "~/components/Footer";
-import Image from "next/image"
+import SacramentoText from "~/components/SacramentoText";
 
 import hha1 from "../assets/hha1.jpg"
 import hha2 from "../assets/hha2.jpg"

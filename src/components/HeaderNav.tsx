@@ -16,10 +16,10 @@ const HeaderNav = () => {
       <div>
         <ul className="flex justify-between gap-8">
           <div className="flex border border-2 rounded-2xl border-sky-500 transition hover:bg-white">
-            <Link className="flex flex-wrap text-2xl p-2 items-center" href="GetStarted"> <li>Get Started</li> </Link>
+            <Link className="flex flex-wrap text-2xl p-2 items-center" href="get-started"> <li>Get Started</li> </Link>
           </div>
-          <Link className="p-4 text-lg" href="About"> <li>About</li> </Link>
-          <Link className="p-4 text-lg" href="Services"> <li>Services</li> </Link>
+          <Link className="p-4 text-lg" href="about"> <li>About</li> </Link>
+          <Link className="p-4 text-lg" href="services"> <li>Services</li> </Link>
         </ul>
       </div>
     </div>
