@@ -32,7 +32,7 @@ export default function Home() {
 
           <div className="flex flex-col flex-wrap w-10/12 justify-around gap-8">
 
-                <div className="flex flex-col rounded rounded-full border border-4 border-sky-500 text-xl">
+                <div className="flex flex-col rounded rounded-xl border border-4 border-sky-500 text-xl">
                   <div className="flex flex-row gap-8 justify-center justify-items-center items-center text-center">
                     <Image className="w-1/3" src={hha2} alt="hha2"/>
                     <div className="text-center">
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="rounded rounded-full border border-4 border-sky-500 text-xl w-1/4 my-12 text-center">
+        <div className="rounded rounded-xl border border-4 border-sky-500 text-xl w-1/4 my-12 text-center">
           Explore our services to discover how Vero Lady HHA Services can make a positive difference in your life or the life of your loved one. Contact us today to schedule a consultation and take the first step towards a brighter, healthier future. Your well-being is our priority, and we&apos;re here to welcome you home.
         </div>
       </main>
