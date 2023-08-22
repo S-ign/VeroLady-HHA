@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="flex flex-col gap-12 justify-center justify-items-center items-center text-center h-screen gap-40 snap-center p-8 lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse">
+                  <div className="flex flex-col gap-12 justify-center justify-items-center items-center text-center h-screen gap-12 snap-center p-8 lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse">
                     <Image className="w-10/12 rounded rounded-full shadow-2xl shadow-stone-700/50 lg:w-1/2 xl:w-1/2 2xl:w-1/2" src={hha3} alt="hha3"/>
                     <div className="text-center">
                       As a locally-owned and operated small business, we take pride in our strong ties to the community we serve. Our mission is to create a warm and nurturing environment where our clients feel valued and understood. We believe that everyone deserves to age gracefully and comfortably in the place they call home, and we&apos;re honored to be a part of that journey.
