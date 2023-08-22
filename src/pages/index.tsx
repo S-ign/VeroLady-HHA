@@ -35,34 +35,34 @@ export default function Home() {
 
       <hr className="h-px my-8 bg-sky-400 border-0"/>
 
-      <main className="flex flex-col justify-center justify-items-center items-center">
+      <main className="flex flex-col justify-center justify-items-center items-center snap-y">
         <div className="flex justify-center justify-items-center items-center">
 
           <div className="flex flex-col flex-wrap w-10/12 justify-around">
 
-                <div className="flex flex-col text-xl">
-                  <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center justify-items-center items-center text-center h-screen gap-40 ">
+                <div className="flex flex-col text-xl snap-proximity">
+                  <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center justify-items-center items-center text-center h-screen gap-40 snap-center">
                     <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha2} alt="hha2"/>
                     <div className="text-center">
                       At Vero Lady HHA Services, we understand that every individual&apos;s journey to wellness is unique. That&apos;s why we&apos;re dedicated to providing compassionate and tailored care that promotes independence, enhances quality of life, and brings peace of mind to both our clients and their families.
                     </div>
                   </div>
 
-                  <div className="flex flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse gap-40 justify-center justify-items-center items-center text-center h-screen gap-40">
+                  <div className="flex flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse gap-40 justify-center justify-items-center items-center text-center h-screen gap-40 snap-center">
                     <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha1} alt="hha1"/>
                     <div className="text-center">
                       Our team of highly-trained caregivers is committed to delivering top-notch medical and non-medical assistance within the comfort of your own home. Whether you or your loved one are recovering from an illness, managing a chronic condition, or simply in need of a helping hand, we&apos;re here to provide the support you deserve.
                     </div>
                   </div>
 
-                  <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row gap-40 justify-center justify-items-center items-center text-center h-screen gap-40">
+                  <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row gap-40 justify-center justify-items-center items-center text-center h-screen gap-40 snap-center">
                     <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha4} alt="hha4"/>
                     <div className="text-center">
                       With a deep respect for the dignity and preferences of each person we serve, Vero Lady HHA Services offers a wide range of services that encompass everything from skilled nursing care to companionship and light housekeeping. Our holistic approach not only addresses physical needs but also fosters emotional well-being, ensuring a comprehensive and holistic caregiving experience.
                     </div>
                   </div>
 
-                  <div className="flex flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse gap-40 justify-center justify-items-center items-center text-center h-screen gap-40">
+                  <div className="flex flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse gap-40 justify-center justify-items-center items-center text-center h-screen gap-40 snap-center">
                     <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha3} alt="hha3"/>
                     <div className="text-center">
                       As a locally-owned and operated small business, we take pride in our strong ties to the community we serve. Our mission is to create a warm and nurturing environment where our clients feel valued and understood. We believe that everyone deserves to age gracefully and comfortably in the place they call home, and we&apos;re honored to be a part of that journey.
