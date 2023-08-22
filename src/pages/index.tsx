@@ -41,39 +41,39 @@ export default function Home() {
           <div className="flex flex-col flex-wrap w-10/12 justify-around">
 
                 <div className="flex flex-col text-xl">
-                  <div className="flex flex-row justify-center justify-items-center items-center text-center h-screen gap-40">
+                  <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center justify-items-center items-center text-center h-screen gap-40 ">
                     <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha2} alt="hha2"/>
                     <div className="text-center">
                       At Vero Lady HHA Services, we understand that every individual&apos;s journey to wellness is unique. That&apos;s why we&apos;re dedicated to providing compassionate and tailored care that promotes independence, enhances quality of life, and brings peace of mind to both our clients and their families.
                     </div>
                   </div>
 
-                  <div className="flex flex-row gap-40 justify-center justify-items-center items-center text-center h-screen">
+                  <div className="flex flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse gap-40 justify-center justify-items-center items-center text-center h-screen gap-40">
+                    <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha1} alt="hha1"/>
                     <div className="text-center">
                       Our team of highly-trained caregivers is committed to delivering top-notch medical and non-medical assistance within the comfort of your own home. Whether you or your loved one are recovering from an illness, managing a chronic condition, or simply in need of a helping hand, we&apos;re here to provide the support you deserve.
                     </div>
-                    <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha1} alt="hha1"/>
                   </div>
 
-                  <div className="flex flex-row gap-40 justify-center justify-items-center items-center text-center h-screen">
+                  <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row gap-40 justify-center justify-items-center items-center text-center h-screen gap-40">
                     <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha4} alt="hha4"/>
                     <div className="text-center">
                       With a deep respect for the dignity and preferences of each person we serve, Vero Lady HHA Services offers a wide range of services that encompass everything from skilled nursing care to companionship and light housekeeping. Our holistic approach not only addresses physical needs but also fosters emotional well-being, ensuring a comprehensive and holistic caregiving experience.
                     </div>
                   </div>
 
-                  <div className="flex flex-row gap-40 justify-center justify-items-center items-center text-center h-screen">
+                  <div className="flex flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse gap-40 justify-center justify-items-center items-center text-center h-screen gap-40">
+                    <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha3} alt="hha3"/>
                     <div className="text-center">
                       As a locally-owned and operated small business, we take pride in our strong ties to the community we serve. Our mission is to create a warm and nurturing environment where our clients feel valued and understood. We believe that everyone deserves to age gracefully and comfortably in the place they call home, and we&apos;re honored to be a part of that journey.
                     </div>
-                    <Image className="w-1/2 rounded rounded-full shadow-2xl shadow-stone-700/50" src={hha3} alt="hha3"/>
                   </div>
                 </div>
 
           </div>
         </div>
 
-        <div className="rounded rounded-xl border border-4 border-sky-500 text-xl w-1/4 my-12 text-center">
+        <div className="rounded rounded-xl border border-4 border-sky-500 text-xl my-12 text-center lg:w-1/2 xl:w-1/4 2xl:w-1/4">
           Explore our services to discover how Vero Lady HHA Services can make a positive difference in your life or the life of your loved one. Contact us today to schedule a consultation and take the first step towards a brighter, healthier future. Your well-being is our priority, and we&apos;re here to welcome you home.
         </div>
       </main>
