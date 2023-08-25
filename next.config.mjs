@@ -2,11 +2,15 @@
  * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially useful
  * for Docker builds.
  */
+
 await import("./src/env.mjs");
 
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
+  //experimental: {
+  //  serverActions: true,
+  //},
 
   /**
    * If you are using `appDir` then you must comment the below `i18n` config out.
