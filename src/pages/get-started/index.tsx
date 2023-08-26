@@ -6,8 +6,8 @@ import { useHubspotForm } from 'next-hubspot';
 const GetStartedPage: NextPage = () => {
 
   const { loaded, error, formCreated } = useHubspotForm({
-    portalId: `${process.env.HUBSPOT_PORTALID}`,
-    formId: `${process.env.HUBSPOT_FORMID}`,
+    portalId: "43639857",
+    formId: "5754516b-a18b-4c18-9363-1fc0e5d60c16",
     target: '#hubspot-form-wrapper'
   });
 
