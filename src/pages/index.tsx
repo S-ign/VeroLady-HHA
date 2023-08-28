@@ -49,14 +49,14 @@ export default function Home() {
                   <div className="flex flex-col justify-center justify-items-center items-center text-center h-screen gap-12 snap-center p-8 lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse">
                     <Image className="w-10/12 rounded rounded-full shadow-2xl shadow-stone-700/50 lg:w-1/2 xl:w-1/2 2xl:w-1/2" src={hha1} alt="hha1"/>
                     <div className="text-center">
-                      Our team of highly-trained caregivers is committed to delivering top-notch medical and non-medical assistance within the comfort of your own home. Whether you or your loved one are recovering from an illness, managing a chronic condition, or simply in need of a helping hand, we&apos;re here to provide the support you deserve.
+                      Our team of highly-trained caregivers is committed to delivering top-notch non-medical assistance within the comfort of your own home. Whether you or your loved one are recovering from an illness, managing a chronic condition, or simply in need of a helping hand or companionship we&apos;re here to provide the support you deserve.
                     </div>
                   </div>
 
                   <div className="flex flex-col justify-center justify-items-center items-center text-center h-screen gap-12 snap-center shadow-2xl p-8 bg-sky-100 rounded rounded-full lg:flex-row xl:flex-row 2xl:flex-row">
                     <Image className="w-10/12 rounded rounded-full shadow-2xl shadow-stone-700/50 lg:w-1/2 xl:w-1/2 2xl:w-1/2" src={hha4} alt="hha4"/>
                     <div className="text-center">
-                      With a deep respect for the dignity and preferences of each person we serve, Vero Lady HHA Services offers a wide range of services that encompass everything from skilled nursing care to companionship and light housekeeping. Our holistic approach not only addresses physical needs but also fosters emotional well-being, ensuring a comprehensive and holistic caregiving experience.
+                      With a deep respect for the dignity and preferences of each person we serve, Vero Lady HHA Services offers a mid level support as home health aide (HHA). Providing services that may include, personal care, incontinence management, changing bedding, meal preparation, companionship, light housekeeping to running errands. Our holistic approach not only addresses physical needs but also fosters emotional well-being, ensuring a comprehensive and holistic caregiving experience.
                     </div>
                   </div>
 
