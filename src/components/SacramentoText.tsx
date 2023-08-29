@@ -7,10 +7,12 @@ const sacramento = Sacramento({
   display: 'swap'
 })
 
-const SacramentoText = (props: {text: string}) => {
+const SacramentoText = (props: {text: string, size: string}) => {
   return (
       <div className="flex justify-center justify-items-center">
-         <div className={sacramento.className}> {props.text} </div> 
+         <div className={props.size}>
+           <div className={sacramento.className}> {props.text} </div> 
+         </div>
       </div>
   )
 }

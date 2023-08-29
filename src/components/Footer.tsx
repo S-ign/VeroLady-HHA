@@ -8,7 +8,7 @@ const Footer = () => {
     <hr className="h-8 bg-slate-700 border-0"/>
       
     <div className="flex flex-col justify-center justify-items-center items-center text-3xl">
-      <SacramentoText text="Vero Lady " />
+      <SacramentoText size="text-5xl" text="Vero Lady " />
       <div className="border rounded-full p-2 border-sky-500 bg-sky-300 opacity-75">HHA Services</div>
     </div>
 
