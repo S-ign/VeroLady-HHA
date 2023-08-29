@@ -22,10 +22,10 @@ export default function Home() {
       <div className="flex flex-wrap justify-items-center justify-center gap-8">
         <HeaderNavLanding />
       </div>
-      <div className="flex items-center justify-center text-6xl bg-[url('../assets/hha-intro.jpg')] h-screen bg-cover bg-center bg-no-repeat">
+      <div className="flex items-center justify-center bg-[url('../assets/hha-intro.jpg')] h-screen bg-cover bg-center bg-no-repeat">
 
         <div className="flex flex-col gap-4">
-          <SacramentoText text="Family Love, We Care"/>
+          <SacramentoText classNames="text-6xl" text="Family Love, We Care"/>
           <div className="items-center justify-center flex">
             <Link className="w-full flex flex-wrap text-2xl p-2" href="get-started"> <button className="w-full border border-2 rounded-2xl border-sky-500 transition hover:bg-white">Get Started</button> </Link>
           </div>

@@ -7,7 +7,7 @@ const sacramento = Sacramento({
   display: 'swap'
 })
 
-const SacramentoText = (props: {text: string, classNames?: string}) => {
+const SacramentoText = (props: {text: string, classNames: string}) => {
   return (
       <div className="flex justify-center justify-items-center">
          <div className={props.classNames}>
