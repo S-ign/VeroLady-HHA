@@ -20,10 +20,20 @@ const Footer = () => {
     <hr className="h-px my-8 bg-sky-400 border-0"/>
 
     <div className="flex justify-items-around justify-around h-16">
-      <div>Lucita Dover, Owner</div>
+      <div className='flex flex-col'>
+        <div>
+          Lucita Dover, Owner
+        </div>
+        <div>
+          Florida State Certified HHA
+        </div>
+      </div>
       <div>(772) 453-3524</div>
       <div>lucita.dover@gmail.com</div>
     </div>
+      <div className="flex justify-center items-center bg-slate-700">
+        <div>&copy; verolady.com 2023</div>
+      </div>
   </div>
   )
 }
