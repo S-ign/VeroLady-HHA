@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-center bg-[url('../assets/hha-intro.jpg')] h-screen bg-cover bg-center bg-no-repeat">
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 bg-white bg-opacity-60 p-8 rounded-full">
           <SacramentoText classNames="text-6xl" text="Family Love, We Care"/>
           <div className="items-center justify-center flex">
             <Link className="w-full flex flex-wrap text-2xl p-2" href="get-started"> <button className="w-full border border-2 rounded-2xl border-sky-500 transition hover:bg-white">Get Started</button> </Link>

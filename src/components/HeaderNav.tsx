@@ -4,7 +4,7 @@ import SacramentoText from "~/components/SacramentoText";
 
 const HeaderNav = () => {
   return (
-    <div className="flex flex-wrap w-full p-4 justify-between justify-items-between bg-zinc-100">
+    <div className="fixed flex flex-wrap w-full p-4 justify-between justify-items-between bg-zinc-100 bg-opacity-40">
 
       <Link href="/">
         <div className="text-3xl">
