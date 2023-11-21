@@ -87,7 +87,7 @@ const ServicesPage: NextPage = () => {
             <div className="flex flex-col border border-sky-500 rounded-full items-center p-8 shadow-xl bg-teal-50 lg:w-1/3">
               <Image className="rounded-full w-9/12" src={Housekeeping} alt="Housekeeping" />
               <div className="text-3xl">
-                Light Housekeeping
+                Homemaking
               </div>
                 <div className="flex flex-col gap-2 items-center p-4">
               

@@ -8,7 +8,7 @@ const HeaderNav = () => {
 
       <Link href="/">
         <div className="text-3xl">
-          <SacramentoText classNames="text-5xl" text="Vero Lady " />
+          <SacramentoText classNames="text-5xl font-bold" text="Vero Lady " />
           <div className="border rounded-full p-2 border-sky-500 bg-sky-300 opacity-75">HHA Services</div>
         </div>
       </Link>

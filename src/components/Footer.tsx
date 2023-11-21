@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div>(772) 453-3524</div>
-      <div>lucita.dover@gmail.com</div>
+      <div>lucitad@verolady.com</div>
     </div>
       <div className="flex justify-center items-center bg-slate-700">
         <div>&copy; verolady.com 2023</div>
