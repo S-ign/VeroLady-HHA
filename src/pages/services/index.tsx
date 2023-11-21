@@ -25,20 +25,14 @@ const ServicesPage: NextPage = () => {
                   <div className="text-3xl">
                     Personal Care
                   </div>
-                  <div className="flex flex-row gap-8">
+                  <div className="flex flex-col gap-2 items-center p-4">
                   
-                    <div className="flex flex-col">
-                      <div>Personal hygiene</div>
-                      <div>Bathing</div>
-                      <div>Dressing</div>
-                      <div>Brushing teeth</div>
+                    <div className="flex flex-row">
+                      <div>Personal hygiene, Bathing, Dressing, Brushing teeth </div>
                     </div>
                   
-                    <div className="flex flex-col">
-                      <div>Cleaning dentures</div>
-                      <div>Hair care</div>
-                      <div>Nail care</div>
-                      <div>Skin care</div>
+                    <div className="flex flex-row">
+                      <div>Cleaning dentures, Hair care, Nail care, Skin care </div>
                     </div>
                 </div>
                 </div>
@@ -50,17 +44,14 @@ const ServicesPage: NextPage = () => {
                   <div className="text-3xl">
                     Incontinence Management
                   </div>
-                  <div className="flex flex-row gap-8">
+                  <div className="flex flex-col gap-2 items-center p-4">
                   
-                    <div className="flex flex-col">
-                      <div>Restroom Assistance</div>
-                      <div>Manage Water Intake</div>
+                    <div className="flex flex-row">
+                      <div>Restroom Assistance, Manage Water Intake </div>
                     </div>
                   
-                    <div className="flex flex-col">
-                      <div>Changing Soiled Clothing</div>
-                      <div>Changing bedding</div>
-                      <div>Cleaning private areas</div>
+                    <div className="flex flex-row">
+                      <div>Changing Soiled Clothing, Changing bedding</div>
                     </div>
                   </div>
                 </div>
@@ -98,20 +89,14 @@ const ServicesPage: NextPage = () => {
               <div className="text-3xl">
                 Light Housekeeping
               </div>
-                <div className="flex flex-row gap-8">
+                <div className="flex flex-col gap-2 items-center p-4">
               
-                  <div className="flex flex-col">
-                    <div>Sweeping</div>
-                    <div>Mopping</div>
-                    <div>Taking out trash</div>
-                    <div>Washing Dishes</div>
+                  <div className="flex flex-row">
+                    <div>Sweeping, Mopping, Taking out trash, Washing Dishes</div>
                   </div>
               
-                  <div className="flex flex-col">
-                    <div>Laundry</div>
-                    <div>Making bed</div>
-                    <div>Dusting</div>
-                    <div>Cleaning counters</div>
+                  <div className="flex flex-row">
+                    <div>Laundry, Making bed, Dusting, Cleaning counters</div>
                   </div>
                 </div>
             </div>
